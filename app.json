@@ -1,0 +1,90 @@
+{
+  "expo": {
+    "name": "Nevú",
+    "slug": "nevu",
+    "version": "1.0.4",
+    "orientation": "default",
+    "userInterfaceStyle": "automatic",
+    "backgroundColor": "#0A1520",
+    "android": {
+      "package": "com.nevu.menu",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundImage": "./assets/adaptive-bg.png",
+        "monochromeImage": "./assets/adaptive-mono.png",
+        "backgroundColor": "#1565C0"
+      },
+      "permissions": [
+        "POST_NOTIFICATIONS",
+        "READ_CALENDAR",
+        "RECEIVE_BOOT_COMPLETED",
+        "SCHEDULE_EXACT_ALARM",
+        "VIBRATE",
+        "WRITE_CALENDAR"
+      ],
+      "blockedPermissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+        "android.permission.SYSTEM_ALERT_WINDOW",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.READ_MEDIA_IMAGES",
+        "android.permission.READ_MEDIA_VIDEO",
+        "android.permission.READ_MEDIA_AUDIO",
+        "android.permission.USE_EXACT_ALARM"
+      ],
+      "versionCode": 1
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notification-icon.png",
+          "color": "#1565C0",
+          "sounds": [
+            "./assets/sounds/aviso.wav"
+          ]
+        }
+      ],
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/Nunito-Regular.ttf",
+            "./assets/fonts/Nunito-SemiBold.ttf",
+            "./assets/fonts/Nunito-Bold.ttf",
+            "./assets/fonts/Nunito-ExtraBold.ttf",
+            "./assets/fonts/Manrope-ExtraBold.ttf",
+            "./assets/fonts/Manrope-Bold.ttf"
+          ]
+        }
+      ],
+      "expo-calendar",
+      "expo-iap",
+      "@react-native-google-signin/google-signin",
+      [
+        "expo-audio",
+        {
+          "microphonePermission": false,
+          "recordAudioAndroid": false
+        }
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#1565C0",
+          "dark": {
+            "image": "./assets/splash-icon.png",
+            "backgroundColor": "#0A1520"
+          }
+        }
+      ],
+      "expo-system-ui",
+      "./plugins/play-limpio.js"
+    ],
+    "icon": "./assets/icon.png"
+  }
+}

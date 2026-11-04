@@ -1,0 +1,3 @@
+Sonidos de Nevú
+Todos están hechos desde cero para esta app (sin muestras de terceros) con tools/sonidos.py: madera, aire, gotas,
+kalimba, cristal y cuencos suaves, en la misma escala. respira.wav (respiración guiada) es el cuenco original.

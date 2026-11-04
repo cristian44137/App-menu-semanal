@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 74 352 128" width="704" height="256">
+  <!-- Logotipo de Nevú: letras dibujadas con un solo trazo redondeado; la tilde es una hoja fresca.
+       Cambia el color de las letras en stroke (blanco sobre azul; #0E3F7A sobre fondo claro). -->
+  <defs>
+    <linearGradient id="hoja" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#2FC79A"/><stop offset="1" stop-color="#8BF0CF"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M0 128 V192 M0 158 A30 30 0 0 1 60 158 V192"/>
+    <path d="M92 160 H156 A32 32 0 1 0 147 183"/>
+    <path d="M184 128 C192 158 200 192 214 192 C228 192 236 158 244 128"/>
+    <path d="M272 128 V162 A30 30 0 0 0 332 162 M332 128 V192"/>
+  </g>
+  <path d="M296 118 C296 100 306 86 324 80 C326 98 316 112 296 118 Z" fill="url(#hoja)"/>
+  <path d="M298 116 L318 88" stroke="#1E9C78" stroke-width="1.6" stroke-linecap="round" opacity=".6"/>
+</svg>
